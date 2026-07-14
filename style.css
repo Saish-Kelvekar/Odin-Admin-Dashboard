@@ -80,5 +80,31 @@ li{
     gap:5px;
 }
 
+img{
+    height:60px;
+    width:60px;
+}
+
+.notify{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bigimg{
+    height:80px;
+    width: 80px;
+}
+
+.info{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap:20px;
+    padding:30px 20px;
+    
+
+}
+
 
 
