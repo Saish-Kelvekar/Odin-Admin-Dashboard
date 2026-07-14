@@ -16,7 +16,10 @@
 
 .header{
     grid-column: 2/3;
-    background-color: yellow;
+    /* background-color: yellow; */
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows:1fr 1.5fr;
 }
 
 .main{
@@ -54,6 +57,28 @@ li{
     height: 30px;
     width: 30px;
 }
-svg{
+.sidebar svg{
     fill: white;
 }
+
+.header svg{
+    height:30px;
+    width:30px;
+}
+
+.sbox{
+    background-color:rgba(128,128,128,0.4);
+    height: 50px;
+    width:600px;
+    border-radius: 20px;
+}
+
+.search{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:5px;
+}
+
+
+
