@@ -106,5 +106,21 @@ img{
 
 }
 
+button{
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    padding:10px;
+    width: 100px;
+    text-align: center;
+    margin:25px;
+}
+
+.new{
+    align-items: center;
+    justify-self: center;
+    padding-top:30px;
+}
+
 
 
